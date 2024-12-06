@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federación de Jóvenes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.18.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.18.1/firebase-firestore.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la Federación de Jóvenes</h1>
+    </header>
+
+    <section class="login-form">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Nombre de usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </section>
+
+    <section class="registro-form">
+        <h2>Registrarse</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Nuevo usuario" required>
+            <input type="password" id="newPassword" placeholder="Nueva contraseña" required>
+            <button type="submit">Registrarse</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Federación de Jóvenes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
